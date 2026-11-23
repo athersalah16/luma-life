@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { AppCategorySection } from "@/features/qr-guide/components/AppCategorySection";
-import { CategoryNavigation } from "@/features/qr-guide/components/CategoryNavigation";
-import { GuideHero } from "@/features/qr-guide/components/GuideHero";
-import { GuideIntroduction } from "@/features/qr-guide/components/GuideIntroduction";
-import { GuideTips } from "@/features/qr-guide/components/GuideTips";
-import { resourceCategories } from "@/features/qr-guide/data/resources.data";
+import { AppCategorySection } from "@/app/qr-guide/components/AppCategorySection";
+import { CategoryNavigation } from "@/app/qr-guide/components/CategoryNavigation";
+import { GuideHero } from "@/app/qr-guide/components/GuideHero";
+import { GuideIntroduction } from "@/app/qr-guide/components/GuideIntroduction";
+import { GuideTips } from "@/app/qr-guide/components/GuideTips";
+import { resourceCategories } from "@/help_data/qr-guide/resources.data";
 
 export const metadata: Metadata = {
   title: "الدليل الرقمي",

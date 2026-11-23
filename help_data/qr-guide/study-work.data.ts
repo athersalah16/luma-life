@@ -1,0 +1,51 @@
+import type { ResourceCategory } from "@/types/resource.types";
+
+export const studyWorkResources = {
+  id: "study-work",
+  title: "الدراسة والعمل",
+  englishTitle: "Study & Work",
+  description: "أدوات لتنظيم المهام والتركيز والدراسة.",
+  tip: "اكتب أولوياتك ومراجعتك في الدفتر. إن احتجت إلى تذكير رقمي بمهمة، استخدم أداة مساندة دون أن تجعلها بديلاً عن تخطيطك.",
+  resources: [
+    {
+      id: "ticktick",
+      name: "TickTick",
+      description: "قوائم مهام وتذكيرات وتقويم ومؤقت تركيز في تطبيق واحد.",
+      purpose: "تنظيم المهام والمواعيد.",
+      notebookUse: "اختر مهامك الثلاث في الدفتر صباحاً، واترك التذكيرات للتطبيق.",
+      icon: "/icons/apps/ticktick.png",
+      pricing: "freemium",
+      links: { website: "https://ticktick.com" },
+    },
+    {
+      id: "notion",
+      name: "Notion",
+      description: "مساحة للملاحظات وقواعد البيانات والمشاريع، تجمع الدروس والخطط الأكبر من صفحة اليوم.",
+      purpose: "أرشفة الملاحظات وإدارة المشاريع الطويلة.",
+      notebookUse: "الدفتر لليوم، وNotion للأرشيف والمشاريع.",
+      icon: "/icons/apps/notion.png",
+      pricing: "freemium",
+      links: { website: "https://www.notion.com" },
+    },
+    {
+      id: "forest",
+      name: "Forest",
+      description: "مؤقت تركيز تنمو فيه شجرة كلما بقيت بعيداً عن هاتفك.",
+      purpose: "حماية وقت التركيز من التشتت.",
+      notebookUse: "ابدأ جلسة تركيز لكل مهمة مكتوبة في الدفتر.",
+      icon: "/icons/apps/forest.png",
+      pricing: "freemium",
+      links: { website: "https://www.forestapp.cc" },
+    },
+    {
+      id: "anki",
+      name: "Anki",
+      description: "بطاقات مراجعة بالتكرار المتباعد لتثبيت المعلومات على المدى الطويل.",
+      purpose: "مراجعة ما تعلمته وتثبيته.",
+      notebookUse: "اكتب فكرة اليوم في الدفتر، وحوّل المهم منها إلى بطاقة.",
+      icon: "/icons/apps/anki.png",
+      pricing: "freemium",
+      links: { website: "https://apps.ankiweb.net" },
+    },
+  ],
+} satisfies ResourceCategory;

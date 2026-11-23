@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { Logo } from "@/components/shared/Logo";
-import { MobileNavigation } from "@/components/layout/MobileNavigation";
-import { desktopNavigation } from "@/data/navigation.data";
+import { Logo } from "@/components/common/Logo";
+import {navigation } from "@/help_data/company/navigation.data";
 
 export function Header() {
   return (
@@ -15,10 +14,10 @@ export function Header() {
           <Logo compact />
         </Link>
         <nav
-          className="hidden items-center gap-6 md:flex lg:gap-10"
+          className="flex  items-center gap-6  lg:gap-10"
           aria-label="التنقل الرئيسي"
         >
-          {desktopNavigation.map((item) => (
+          {navigation.map((item) => (
             <Link
               key={item.href}
               className="text-sm font-semibold text-ink transition-colors hover:text-royal"
@@ -28,7 +27,6 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <MobileNavigation />
       </div>
     </header>
   );

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { AboutContent } from "@/features/about/components/AboutContent";
-import { PageIntro } from "@/components/shared/PageIntro";
-import { company } from "@/data/company.data";
+import { AboutContent } from "@/app/about/components/AboutContent";
+import { PageIntro } from "@/components/common/PageIntro";
+import { company } from "@/help_data/company/company.data";
 
 export const metadata: Metadata = {
   title: "من نحن",
@@ -16,7 +16,7 @@ export default function AboutPage() {
         title="حياة أكثر اتزاناً، تبدأ بخطوة."
         description="LUMA Life علامة تهتم بأدوات التخطيط الورقية التي تساعدك على تنظيم جوانب حياتك والعودة إلى ما يهمك."
       />
-      <AboutContent company={company} />
+      <AboutContent/>
     </main>
   );
 }

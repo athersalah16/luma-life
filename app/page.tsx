@@ -1,12 +1,12 @@
-import { BrandIntroduction } from "@/features/home/components/BrandIntroduction";
-import { BrandPhilosophy } from "@/features/home/components/BrandPhilosophy";
-import { GuideOverview } from "@/features/home/components/GuideOverview";
-import { HeroSection } from "@/features/home/components/HeroSection";
-import { HowItWorks } from "@/features/home/components/HowItWorks";
-import { LifestyleCategories } from "@/features/home/components/LifestyleCategories";
-import { NotebookFeatures } from "@/features/home/components/NotebookFeatures";
-import { NotebookShowcase } from "@/features/home/components/NotebookShowcase";
-import { ScoreboardOverview } from "@/features/home/components/ScoreboardOverview";
+import { BrandIntroduction } from "@/app/components/BrandIntroduction";
+import { BrandPhilosophy } from "@/app/components/BrandPhilosophy";
+import { GuideOverview } from "@/app/components/GuideOverview";
+import { HeroSection } from "@/app/components/HeroSection";
+import { HowItWorks } from "@/app/components/HowItWorks";
+import { LifestyleCategories } from "@/app/components/LifestyleCategories";
+import { NotebookFeatures } from "@/app/components/NotebookFeatures";
+import { NotebookShowcase } from "@/app/components/NotebookShowcase";
+import { ScoreboardOverview } from "@/app/components/ScoreboardOverview";
 
 export default function HomePage() {
   return (

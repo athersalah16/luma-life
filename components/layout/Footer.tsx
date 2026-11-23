@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Logo } from "@/components/shared/Logo";
-import { footerNavigation } from "@/data/navigation.data";
+import { Logo } from "@/components/common/Logo";
+import { footerNavigation } from "@/help_data/company/navigation.data";
 
 export function Footer() {
   return (
